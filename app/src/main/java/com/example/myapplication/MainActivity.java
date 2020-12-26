@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     ActionBar actionBar;
     BottomNavigationView bottomNavigationView;
-
+//변경
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
