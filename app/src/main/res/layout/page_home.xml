@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#58ACFA"
+    android:background="@drawable/background_selector"
    >
 
     <ImageView
@@ -22,6 +22,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="37dp"
+        android:textSize="20dp"
         android:layout_marginTop="158dp"
         android:text="이름" />
 
@@ -33,6 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
         android:layout_marginTop="212dp"
+        android:textSize="20dp"
         android:text="품종" />
 
     <TextView
@@ -42,6 +44,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
+        android:textSize="20dp"
         android:layout_marginTop="183dp"
         android:text="나이" />
 
@@ -53,6 +56,7 @@
         android:layout_alignBottom="@+id/text_size"
         android:layout_marginStart="78dp"
         android:layout_marginBottom="0dp"
+        android:textSize="20dp"
         android:text="TextView" />
 
     <TextView
@@ -63,6 +67,7 @@
         android:layout_alignBottom="@+id/text_kind"
         android:layout_marginStart="78dp"
         android:layout_marginBottom="0dp"
+        android:textSize="20dp"
         android:text="TextView" />
 
     <TextView
@@ -73,6 +78,7 @@
         android:layout_alignBottom="@+id/text_age"
         android:layout_marginStart="79dp"
         android:layout_marginBottom="1dp"
+        android:textSize="20dp"
         android:text="TextView" />
 
     <TextView
@@ -83,6 +89,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
         android:layout_marginTop="243dp"
+        android:textSize="20dp"
         android:text="크기" />
 
     <TextView
@@ -93,6 +100,7 @@
         android:layout_alignBottom="@+id/text_name"
         android:layout_marginStart="78dp"
         android:layout_marginBottom="1dp"
+        android:textSize="20dp"
         android:text="TextView" />
 
     <TextView
@@ -103,6 +111,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="351dp"
+        android:textSize="20dp"
         android:text="오늘은 아직 산책을 안 갔어요." />
 
 </RelativeLayout>

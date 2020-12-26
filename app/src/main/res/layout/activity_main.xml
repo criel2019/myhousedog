@@ -6,12 +6,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42A5F5">
 
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="우리 집 댕댕이">
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
     <FrameLayout
         android:id="@+id/content_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
